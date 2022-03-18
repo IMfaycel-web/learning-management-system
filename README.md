@@ -219,34 +219,6 @@ The health-check route is mounted outside the versioned API prefix.
 | `GET` | `/payments/razorpay-key` | User | Return the checkout key |
 | `GET` | `/payments` | Admin | Return payment records and analytics |
 
-### Additional Operations
-
-| Method | Path | Access | Purpose |
-| --- | --- | --- | --- |
-| `POST` | `/contact` | Public | Send a contact message |
-| `GET` | `/admin/stats/users` | Admin | Return user statistics |
-
-## Configuration
-
-| Variable | Purpose |
-| --- | --- |
-| `PORT` | Backend server port |
-| `NODE_ENV` | Runtime environment |
-| `FRONTEND_URL` | Allowed frontend origin |
-| `MONGO_URI` | MongoDB connection |
-| `JWT_SECRET` | Token-signing secret |
-| `JWT_EXPIRY` | Authentication lifetime |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary account name |
-| `CLOUDINARY_API_KEY` | Cloudinary API key |
-| `CLOUDINARY_API_SECRET` | Cloudinary API secret |
-| `RAZORPAY_KEY_ID` | Razorpay public key |
-| `RAZORPAY_SECRET` | Razorpay verification secret |
-| `SMTP_HOST` | Email server |
-| `SMTP_PORT` | Email server port |
-| `SMTP_USERNAME` | Email account username |
-| `SMTP_PASSWORD` | Email account password |
-| `SMTP_FROM_EMAIL` | Default sender address |
-| `CONTACT_US_EMAIL` | Contact-form recipient |
 
 Production deployments should:
 
