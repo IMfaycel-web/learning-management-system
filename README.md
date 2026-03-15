@@ -326,3 +326,4 @@ Before submitting a change:
 - Test password-reset and contact emails
 - Avoid committing environment files or credentials
 - Keep changes focused and clearly documented
+
